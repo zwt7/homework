@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>猜拳</title>
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/caiquan.js"></script>
+		<link rel="stylesheet" href="css/caiquan.css" />
+	</head>
+	<body>
+		<div class="box1">
+		 <div class="box_computer">
+			<h2>电脑</h2>
+			<img id="img_computer" src="img/1.png" />
+		 </div>
+ 	 	 <div class="box_person">
+			<h2>个人</h2>
+			<img id="img_person" src="img/1.png" />
+		 </div>
+		</div>
+		<div class="box2">
+			<div class="box_left">
+				<h2>你想出的是</h2>
+				<img id="img0" src="img/b0.png" />
+				<img id="img1" src="img/b1.png" />
+				<img id="img2" src="img/b2.png" />
+			</div>
+			
+			<div class="box_right" style="display: none;">
+				<span>很遗憾，你输了！</span>
+			</div>
+			<div class="box_right2" style="display: block;">
+				<span>恭喜，你赢了！</span>
+			</div>
+			<div class="box_right3" style="display: none;">
+				<span>平局！再来一次吧</span>
+			</div>
+		</div>
+	</body>
+</html>
